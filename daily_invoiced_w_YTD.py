@@ -13,7 +13,7 @@ from openpyxl.styles import Font
 # Setup
 dsn_name = "QuickBooks Data"
 excel_file = f"Daily_Sales_{datetime.now().strftime('%Y-%m-%d')}.xlsx"
-recipient_email = ["steve@lenexamc.com", "anthony@lenexamc.com", "andrew@lenexamc.com", "brian@lenexamc.com", "clark@lenexamc.com", "katelyn@lenexamc.com", "thomas@lenexamc.com", "mdefonso@gmail.com", "amy@lenexamc.com", "maryann@lenexamc.com", "dave@lenexamc.com"]
+recipient_email = ["steve@lenexamc.com"]
 subject = "Sales Report, Invoiced Daily & YTD"
 body = "Attached is sales (what was invoiced) for daily, yesterday, and year-to-date."
 gmail_user = "stephenbastasch@gmail.com"
